@@ -26,8 +26,8 @@ import scipy
 import scipy.misc
 from scipy.cluster import vq
 from scipy import interpolate
-import Image
-import ImageFilter
+from PIL import Image
+from PIL import ImageFilter
 import sqlite3
 import color_spaces as cs
 from directory_walker import DirectoryWalker
